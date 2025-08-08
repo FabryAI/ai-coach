@@ -1,0 +1,28 @@
+# ChromaDB persistence
+db/
+*.sqlite3
+
+# Processed chunked data
+data/processed/
+*.json
+
+# Environment file
+.env
+
+# VSCode config (opzionale)
+.vscode/
+
+# macOS or OS-generated
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Models
+models/piper/
+
+#Records
+.wav
