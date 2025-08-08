@@ -80,7 +80,7 @@ if __name__ == "__main__":
         # If ENTER pressed with no text → record voice
         if user_input == "":
             wav_path = stt.record_wav(seconds=6)
-            user_input = stt.transcribe(wav_path, language="it")  # None for auto-detect
+            user_input = stt.transcribe(wav_path, language="en") 
             print(f"[Transcript] {user_input}")
 
         # Skip empty input
